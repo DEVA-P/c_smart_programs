@@ -1,0 +1,27 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    char str1[]="zohointerview";
+    char str2[]={'t','e','s','t','t','e','s','t','1'};
+    int n1=sizeof(str1)/sizeof(str1[0]);
+        int n2=sizeof(str2)/sizeof(str2[0]);
+    printf("%d %d",n1,n2);
+    
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
